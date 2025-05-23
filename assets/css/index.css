@@ -83,6 +83,12 @@ body {
     gap: 16px;
 }
 
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 .middle-header .bag-profile .profile {
     width: 142px;
     height: 100%;
@@ -94,9 +100,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    outline: none;
-    border: none;
-    cursor: pointer;
     background-color: #FFFFFF;
 }
 
@@ -161,4 +164,109 @@ body {
     color: #000306;
     display: flex;
     flex-direction: row;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.intro-content {
+    display: flex;
+    gap: 16px;
+    margin-right: 122px;
+    margin-top: 32px;
+    margin-bottom: 56px;
+    flex-direction: column;
+    max-width: 435px;
+}
+
+.intro-content p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #606060;
+}
+
+.intro-content h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.intro-content h2:first-of-type {
+    color: #032340;
+}
+
+.intro-content h2:last-of-type {
+    color: #FA541C;
+}
+
+.intro-content button {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 8px 24px;
+    background-color: #032340;
+    border-radius: 5px;
+    max-width: 207px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content button p {
+    color: #FFFFFF;
+}
+
+.intro-image {
+    margin-top: 20px;
+    padding-right: 12px;
+    max-width: 422px;
+    max-height: 475px;
+    object-fit: cover;
+}
+
+.intro-features{
+    margin-right: 61px;
+    margin-top: 74px;
+    max-height: 288px;
+    max-width: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-features .features-box{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.intro-features div p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.intro-features div strong {
+    font-size: 24px;
+    font-weight: 400px;
+    color: #194165;
+}
+
+
+.intro-features img {
+    background-color: #EBF5FF;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.intro-footer-image {
+    position: absolute;
+    top: 395px;
+    z-index: -1;
+}
+
+.intro-footer-image img {
+    width: 100%;
 }
