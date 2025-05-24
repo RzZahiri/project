@@ -10,6 +10,10 @@ body {
   background-color: #FFFFFF;
 }
 
+main {
+    position: relative;
+}
+
 .top-header {
     width: 100%;
     height: 40px;
@@ -269,4 +273,86 @@ button {
 
 .intro-footer-image img {
     width: 100%;
+}
+
+.new-products {
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    max-height: 462px;
+    gap: 24px;
+    margin: 80px 120px;
+}
+
+.new-products .box1, .new-products .box2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 392px;
+    height: 462px;
+    position: relative;
+}
+
+.new-products .box1 div, .new-products .box2 div {
+    background-color: #021526;
+    height: 136px;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 0px 0px 16px 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.new-products a {
+    text-decoration: none;
+}
+
+.new-products .box1 img, .new-products .box2 img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.new-products span {
+    color: #FC9877;
+}
+
+.new-products .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 16px;
+}
+
+.new-products .box3 h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #032340;
+}
+
+.new-products .box3 p{
+    font-weight: 700;
+    color: #606060;
+}
+
+.new-products .box3 button{
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #FA541C;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.new-products-background img {
+    width: 100%;
+    position: absolute;
+    top: 320px;
 }
