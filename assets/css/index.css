@@ -392,3 +392,136 @@ button {
     color: #FFFFFF;
     border-radius: 5px;
 }
+
+.top-discount {
+    margin: 80px 0px;
+    position: relative;
+    height: 572px;
+    text-align: center;
+}
+
+.top-discount .discount1-background {
+    position: absolute;
+    top: 24.83px;
+    z-index: -1;
+}
+
+.top-discount h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #021526;
+}
+
+.top-discount .discount1-background img{
+    height: 572.17px;
+    width: 100%;
+}
+
+.top-discount .discount1-products {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 24px;
+    position: relative;
+    top: 93px;
+}
+
+.top-discount .discount1-products a {
+    display: flex;
+    flex-direction: column;
+    max-width: 366px;
+    position: relative;
+    /* border: 1px solid #EDEDED; */
+    /* border-radius: 12px; */
+}
+
+.top-discount .discount1-products .pr{
+    width: 366px;
+    height: 280px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 16px 16px 0 0;
+}
+
+.top-discount .discount1-products .pr1-vip {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.top-discount .discount1-products .products-info {
+    background-color: #FFFFFF;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 8px;
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 47px;
+}
+
+.top-discount .discount1-products .products-info .text1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #01070D;
+}
+
+.top-discount .discount1-products .products-info .text2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000306;
+}
+
+.top-discount .discount1-products .products-info .text3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #404040; 
+}
+
+.top-discount .discount1-products .products-info .available-colors {
+    width: 44px;
+    height: 18px;
+}
+
+.top-discount .d1-a1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF7F4;
+    top: 52px;
+    left: 105px;
+    gap: 8px;
+    padding: 8px;
+    color: #032340;
+    font-size: 18px;
+}
+
+.top-discount .d1-a1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.top-discount .d1-a2{
+    position: absolute;
+    background-color: #FFF7F4;
+    width: 32px;
+    height: 32px;
+    right: 69px;
+    top: 286px;
+}
+
+.top-discount .d1-a3{
+    position: absolute;
+    background-color: #FFF7F4;
+    width: 32px;
+    height: 32px;
+    left: 69px;
+    top: 286px;
+}
