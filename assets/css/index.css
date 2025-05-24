@@ -309,7 +309,7 @@ button {
     width: 100%;
 }
 
-.new-products a {
+a {
     text-decoration: none;
 }
 
@@ -524,4 +524,170 @@ button {
     height: 32px;
     left: 69px;
     top: 286px;
+}
+
+.new-sport-shoes .arrow {
+    background-color: #FFFFFF;
+}
+
+.new-sport-shoes {
+    margin-top: 100px;
+}
+
+.new-sport-vip {
+    position: absolute;
+    left: 52px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.top-discount .d2-a1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4FAFF;
+    top: 52px;
+    left: 105px;
+    gap: 8px;
+    padding: 8px;
+    color: #032340;
+    font-size: 18px;
+}
+
+.top-discount .d2-a1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.top-discount .d2-a2{
+    position: absolute;
+    background-color: #F4FAFF;
+    width: 32px;
+    height: 32px;
+    right: 69px;
+    top: 286px;
+}
+
+.top-discount .d2-a3{
+    position: absolute;
+    background-color: #F4FAFF;
+    width: 32px;
+    height: 32px;
+    left: 69px;
+    top: 286px;
+}
+
+.camp-text p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.camp-text strong {
+    font-size: 32px;
+}
+
+
+.sport-news {
+    margin: 80px auto;
+    text-align: center;
+    max-width: 1176px;
+}
+
+.sport-news h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #021526;
+}
+
+.sport-news .news-main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.news-box {
+    border: 1px solid #CBCBCB;
+    border-radius: 16px;
+}
+
+.news-box img {
+    border-radius: 16px 16px 0 0;
+}
+
+.news-text {
+    padding: 16px 8px 16px 40px;
+    text-align: right;
+}
+
+.news-text h2 {
+    color: #01070D;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.news-text p {
+    color: #01070D;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.news-text button {
+    width: 153px;
+    height: 48px;
+    margin-right: 7px;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    background-color: #FA541C;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.before-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    background-color: #F4FAFF;
+    margin-bottom: 32px;
+}
+
+.before-footer .before-footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #CFE8FF;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 172px;
+    margin: 34.5px 0;
+}
+
+.before-footer img {
+    width: 48px;
+    height: 48px;
+}
+
+.before-footer .before-footer-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #01070D;
 }
